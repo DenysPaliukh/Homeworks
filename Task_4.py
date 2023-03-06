@@ -2,7 +2,7 @@
 
 value = int(input())
 
-new_value = value / 2 if value < 100 else new_value = - value
+new_value = value / 2 if value < 100 else - value
 
 print(new_value)
 
@@ -10,7 +10,7 @@ print(new_value)
 
 value = int(input())
 
-new_value = 1 if value < 100 else new_value = 0
+new_value = 1 if value < 100 else 0
 
 print(new_value)
 
@@ -18,7 +18,7 @@ print(new_value)
 
 value = int(input())
 
-new_value = True if value < 100 else new_value = False
+new_value = True if value < 100 else False
 
 print(new_value)
 
@@ -26,7 +26,7 @@ print(new_value)
 
 my_str = input()
 
-new_str = 2 * my_str if len(my_str) < 5 else new_str = my_str
+new_str = 2 * my_str if len(my_str) < 5 else my_str
 
 print(new_str)
 
@@ -34,7 +34,7 @@ print(new_str)
 
 my_str = input()
 
-new_str = my_str + my_str[::-1] if len(my_str) < 5 else new_str = my_str
+new_str = my_str + my_str[::-1] if len(my_str) < 5 else my_str
 
 print(new_str)
 
