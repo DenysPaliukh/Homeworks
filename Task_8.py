@@ -1,4 +1,6 @@
 
+################################################ 1
+
 #my_list = ["one", "two", "three", "four", "five"]
 
 #new_list = []
@@ -12,7 +14,7 @@
 
 #print(new_list)
 
-#####################################################
+##################################################### 2
 
 #my_list = ["aone", "two", "three", "afour", "five"]
 
@@ -24,7 +26,7 @@
 
 #print(new_list)
 
-#####################################################
+##################################################### 3
 
 #my_list = ["aone", "twoa", "three", "afour", "fivea"]
 
@@ -36,15 +38,76 @@
 
 #print(new_list)
 
-######################################################
+###################################################### 4
 
-my_list = [{"name": "John", "age": 15}, {"name": "Jane", "age": 25}, {"name": "Jack", "age": 45}]
+#my_list = [{"name": "Johny", "age": 15}, {"name": "Jane", "age": 25}, {"name": "Jack", "age": 45}]
 
-name_list = []
+#name_list = []
 
-len_name_list = []
+#len_name_list = []
 
-dict1, dict2, dict3 = my_list
+#average_list = []
+
+#for age in my_list:
+#    if my_list[0]["age"] > my_list[1]["age"] and my_list[0]["age"] > my_list[2]["age"]:
+#        oldest_one = my_list[0]["name"]
+
+#    elif my_list[1]["age"] > my_list[0]["age"] and my_list[1]["age"] > my_list[2]["age"]:
+#        oldest_one = my_list[1]["name"]
+
+#    else:
+#        oldest_one = my_list[2]["name"]
+
+#name_list.append(oldest_one)
+
+#print(name_list)
+
+#max_name = max(my_list[0]["name"], my_list[1]["name"], my_list[2]["name"])
+
+#len_name_list.append(max_name)
+
+#print(len_name_list)
+
+#average_list.extend([my_list[0]["age"], my_list[1]["age"], my_list[2]["age"]])
+
+#av_age = sum(average_list) / len(average_list)
+
+#print(av_age)
+
+############################################ 5
+
+#my_dict_1 = {1: 1, 2: 2}
+#my_dict_2 = {11: 11, 2: 22}
+
+#my_dict_1_keys = list(my_dict_1.keys())
+#my_dict_2_keys = list(my_dict_2.keys())
+
+#my_dict_1_keys.extend(my_dict_2_keys)
+
+#print(my_dict_1_keys)
+
+#diff = (my_dict_1.keys() - my_dict_2.keys())
+
+#new_list = list(diff)
+
+#print(new_list)
+
+#new_dict = {key: my_dict_1[key] for key in new_list} # честно подсмотрено и украдено
+
+#print(new_dict)
+
+#new_dict_2 = my_dict_1.copy()  # это тоже честно украдено. до конца не понятно, буду разбираться
+
+#for key in my_dict_2:
+#    if key in new_dict_2:
+#        if key in new_dict_2:
+#            new_dict_2[key] = [new_dict_2[key], my_dict_2[key]]
+#        else:
+#            new_dict_2[key] = my_dict_2[key]
+
+#print(new_dict_2)
+
+
 
 
 
