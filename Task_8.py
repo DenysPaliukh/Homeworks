@@ -21,7 +21,7 @@
 #new_list = []
 
 #for i in range(0, len(my_list)):
-#    if "a" in my_list[i][0:]:
+#    if my_list[i][0:].startswith("a"):
 #        new_list.append(my_list[i])
 
 #print(new_list)
@@ -48,17 +48,15 @@
 
 #average_list = []
 
+#oldest_one = 0
+
 #for age in my_list:
-#    if my_list[0]["age"] > my_list[1]["age"] and my_list[0]["age"] > my_list[2]["age"]:
-#        oldest_one = my_list[0]["name"]
+#    if oldest_one < age["age"]:
+#        oldest_one = age["age"]
 
-#    elif my_list[1]["age"] > my_list[0]["age"] and my_list[1]["age"] > my_list[2]["age"]:
-#        oldest_one = my_list[1]["name"]
-
-#    else:
-#        oldest_one = my_list[2]["name"]
-
-#name_list.append(oldest_one)
+#for age in my_list:
+#    if age["age"] == oldest_one:
+#        name_list.append(age["name"])
 
 #print(name_list)
 
@@ -106,9 +104,3 @@
 #            new_dict_2[key] = my_dict_2[key]
 
 #print(new_dict_2)
-
-
-
-
-
-
