@@ -69,19 +69,19 @@ import re
 # print(my_list)
 
 ###################################### 6
-#import re
+import re
 
-#my_str = "43 більше ніж 34, але менше ніж 56"
+my_str = "43 більше ніж 34, але менше ніж 56"
 
-#pattern = '[0-9]+'
-#my_list = list(re.findall(pattern, my_str))
+pattern = '[0-9]+'
+my_list = list(re.findall(pattern, my_str))
 
-#new_list = []
-#for i in my_list:
-#    new_list.append(int(i))
+new_list = []
+for i in my_list:
+    new_list.append(int(i))
 
-#result = sum(new_list)
-#print(result)
+result = sum(new_list)
+print(result)
 
 ####################################### 7
 

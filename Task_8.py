@@ -1,18 +1,18 @@
 
 ################################################ 1
 
-#my_list = ["one", "two", "three", "four", "five"]
+my_list = ["one", "two", "three", "four", "five"]
 
-#new_list = []
+new_list = []
 
-#for i in range(0, len(my_list)):
-#    if i % 2 != 0:
-#        new_list.append(my_list[i])
+for i in range(0, len(my_list)):
+    if i % 2 != 0:
+        new_list.append(my_list[i])
 
-#    else:
-#        new_list.append(my_list[i][::-1])
+    else:
+        new_list.append(my_list[i][::-1])
 
-#print(new_list)
+print(new_list)
 
 ##################################################### 2
 
