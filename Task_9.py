@@ -1,5 +1,4 @@
 #################################### 1
-import string
 
 # my_list = ["one", "two", "three", "four", "five"]
 
