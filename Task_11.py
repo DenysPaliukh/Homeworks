@@ -14,20 +14,20 @@ for file in files_list:
         file_list.append(file)
 
 
-def dir_func(files_list):
+def dir_func(file_list, dir_list):
     dict_files = {"filenames": file_list, "dirnames": dir_list}
 
     return dict_files
 
 
-print(dir_func(file_list))
+print(dir_func(file_list, dir_list))
 
 
 ############################################# 2
 
 def dir_sorting(files_list, key=False):
     for file in files_list:
-        files_list.sort(reverse=False)
+        files_list.sort(reverse=key)
 
     return files_list
 
@@ -39,7 +39,7 @@ print(dir_sorting(files_list, key=False))
 name = input("введите имя папки/файла: ")
 
 
-def dict_renew(dict_files, name):
+def dict_renew(file_list, dir_list):
     if '.' in name:
         file_list.append(name)
     else:
@@ -50,4 +50,4 @@ def dict_renew(dict_files, name):
     return dict_files
 
 
-print(dict_renew(dict_files, name))
+print(dict_renew(file_list, dir_list))
